@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assault Rifles </title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#1f1f1f;
+            color:#f1f1f1;
+            line-height:1.6;
+        }
+
+        .main-header{
+            background:#111;
+            padding:30px 20px;
+            text-align:center;
+            border-bottom:3px solid #e5a100;
+        }
+
+        .main-header h1{
+            font-size:3rem;
+            color:#e5a100;
+        }
+
+        .main-header p{
+            margin-top:10px;
+            color:#ccc;
+        }
+
+        .container{
+            max-width:1100px;
+            margin:auto;
+            padding:20px;
+        }
+
+        .rifle{
+            background:#2a2a2a;
+            margin-bottom:30px;
+            border-radius:12px;
+            overflow:hidden;
+            box-shadow:0 4px 10px rgba(0,0,0,0.4);
+            transition:0.3s ease;
+        }
+
+        .rifle:hover{
+            transform:translateY(-5px);
+        }
+
+        .rifle img{
+            width:100%;
+            height:350px;
+            object-fit:cover;
+        }
+
+        .rifle-content{
+            padding:20px;
+        }
+
+        .rifle h2{
+            color:#e5a100;
+            margin-bottom:15px;
+        }
+
+        .rifle p{
+            margin-bottom:10px;
+            text-align:justify;
+        }
+
+        .specs{
+            margin-top:15px;
+        }
+
+        .specs p{
+            margin:6px 0;
+        }
+
+        strong{
+            color:#ffffff;
+        }
+
+        @media(max-width:768px){
+
+            .main-header h1{
+                font-size:2rem;
+            }
+
+            .rifle img{
+                height:250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <h1>Assault Rifles Collection</h1>
+        <p>Specifications, History, and Overview</p>
+    </header>
+
+    <div class="container">
+
+        <!-- AK-47 -->
+        <div class="rifle">
+            <img src="https://www.therange702.com/wp-content/uploads/2016/10/shutterstock_102492452_1.jpg" alt="AK-47">
+
+            <div class="rifle-content">
+                <h2>AK-47</h2>
+
+                <p>
+                    The AK-47 is one of the most iconic assault rifles ever created,
+                    designed by Mikhail Kalashnikov in the Soviet Union and chambered
+                    for the 7.62×39mm cartridge.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Gas-operated, rotating bolt</p>
+                    <p><strong>Caliber:</strong> 7.62×39mm</p>
+                    <p><strong>Type:</strong> Assault Rifle</p>
+                    <p><strong>Magazine:</strong> 30-round detachable magazine</p>
+                    <p><strong>Country of Origin:</strong> Soviet Union</p>
+                    <p><strong>Year Introduced:</strong> 1947</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- M16 -->
+        <div class="rifle">
+            <img src="https://i.namu.wiki/i/xDo8hsJkfCKFSp-yzjin3gVH021GKsEIU0YnkAuQDKs-crFCCHZ6VnRqt8koRbEa5Ex7JJkq-6TwKli9AR4slw.webp" alt="M16">
+
+            <div class="rifle-content">
+                <h2>M16</h2>
+
+                <p>
+                    The M16 is a lightweight, gas-operated rifle developed for the
+                    United States military and chambered in 5.56×45mm NATO.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Gas-operated, rotating bolt</p>
+                    <p><strong>Caliber:</strong> 5.56×45mm NATO</p>
+                    <p><strong>Type:</strong> Assault Rifle</p>
+                    <p><strong>Magazine:</strong> 20/30-round detachable magazine</p>
+                    <p><strong>Country of Origin:</strong> United States</p>
+                    <p><strong>Year Introduced:</strong> 1964</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- M4 -->
+        <div class="rifle">
+            <img src="https://i.ytimg.com/vi/9PFDnKcQ4qQ/hq720.jpg" alt="M4 Carbine">
+
+            <div class="rifle-content">
+                <h2>M4 Carbine</h2>
+
+                <p>
+                    The M4 Carbine is a compact version of the M16A2 rifle and is
+                    widely used by military forces around the world.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Gas-operated, rotating bolt</p>
+                    <p><strong>Caliber:</strong> 5.56×45mm NATO</p>
+                    <p><strong>Type:</strong> Assault Rifle</p>
+                    <p><strong>Magazine:</strong> 30-round detachable magazine</p>
+                    <p><strong>Country of Origin:</strong> United States</p>
+                    <p><strong>Year Introduced:</strong> 1990s</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- G36 -->
+        <div class="rifle">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Gewehr_G36_noBG.png" alt="G36">
+
+            <div class="rifle-content">
+                <h2>Heckler & Koch G36</h2>
+
+                <p>
+                    The G36 is a German assault rifle developed in the 1990s and
+                    chambered in 5.56×45mm NATO.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Short-stroke piston</p>
+                    <p><strong>Caliber:</strong> 5.56×45mm NATO</p>
+                    <p><strong>Type:</strong> Assault Rifle</p>
+                    <p><strong>Magazine:</strong> 30-round detachable magazine</p>
+                    <p><strong>Country of Origin:</strong> Germany</p>
+                    <p><strong>Year Introduced:</strong> 1997</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- HK416 -->
+        <div class="rifle">
+            <img src="https://i.redd.it/nhi0zuxmkqc31.jpg" alt="HK416">
+
+            <div class="rifle-content">
+                <h2>HK416</h2>
+
+                <p>
+                    The HK416 is a highly reliable assault rifle developed by Heckler
+                    & Koch using a short-stroke gas piston system.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Short-stroke piston</p>
+                    <p><strong>Caliber:</strong> 5.56×45mm NATO</p>
+                    <p><strong>Type:</strong> Assault Rifle</p>
+                    <p><strong>Magazine:</strong> 20/30-round magazines</p>
+                    <p><strong>Country of Origin:</strong> Germany</p>
+                    <p><strong>Year Introduced:</strong> 2004</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- AK-74 -->
+        <div class="rifle">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Ak74l.png" alt="AK-74">
+
+            <div class="rifle-content">
+                <h2>AK-74</h2>
+
+                <p>
+                    The AK-74 is the successor to the AKM and uses the lighter
+                    5.45×39mm cartridge for improved accuracy and control.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Gas-operated, rotating bolt</p>
+                    <p><strong>Caliber:</strong> 5.45×39mm</p>
+                    <p><strong>Type:</strong> Assault Rifle</p>
+                    <p><strong>Magazine:</strong> 30-round detachable magazine</p>
+                    <p><strong>Country of Origin:</strong> Soviet Union</p>
+                    <p><strong>Year Introduced:</strong> 1974</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

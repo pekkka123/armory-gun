@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pistols Collection</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#1f1f1f;
+            color:#f1f1f1;
+            line-height:1.6;
+        }
+
+        .main-header{
+            background:#111;
+            padding:30px 20px;
+            text-align:center;
+            border-bottom:3px solid #e5a100;
+        }
+
+        .main-header h1{
+            font-size:3rem;
+            color:#e5a100;
+        }
+
+        .main-header p{
+            margin-top:10px;
+            color:#ccc;
+        }
+
+        .container{
+            max-width:1100px;
+            margin:auto;
+            padding:20px;
+        }
+
+        .pistol {
+            background: #2a2a2a;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+            transition: transform 0.3s ease;
+        }
+
+        .pistol:hover {
+            transform: translateY(-5px);
+        }
+
+        .pistol img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .pistol-content {
+            padding: 20px;
+        }
+
+        .pistol h2 {
+            color: #e5a100;
+            margin-bottom: 15px;
+        }
+
+        .pistol p {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        .specs {
+            margin-top: 15px;
+        }
+
+        .specs p {
+            margin: 5px 0;
+        }
+
+        strong {
+            color: #ffffff;
+        }
+
+        @media (max-width: 768px) {
+            .main-header h1 {
+                font-size: 2rem;
+            }
+
+            .pistol img {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <h1>Pistol Collection</h1>
+        <p>Specifications, History, and Overview</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Glock 17 -->
+        <div class="pistol">
+            <img src="https://www.pewpewtactical.com/wp-content/uploads/2022/06/0329221434-3.jpg" alt="Glock 17">
+
+            <div class="pistol-content">
+                <h2>Glock 17</h2>
+
+                <p>
+                    The Glock 17 is a short recoil-operated, locked-breech semi-automatic pistol
+                    using a modified Browning cam-lock system adapted from the Hi-Power pistol.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Short recoil, locked breech</p>
+                    <p><strong>Caliber:</strong> 9mm Parabellum</p>
+                    <p><strong>Type:</strong> Semi-automatic, striker-fired</p>
+                    <p><strong>Magazine Capacity:</strong> 17 rounds</p>
+                    <p><strong>Country of Origin:</strong> Austria</p>
+                    <p><strong>Year Introduced:</strong> 1982</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Beretta 92 -->
+        <div class="pistol">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Interpolitex_2013_%28536-8%29.jpg/330px-Interpolitex_2013_%28536-8%29.jpg" alt="Beretta 92">
+
+            <div class="pistol-content">
+                <h2>Beretta 92</h2>
+
+                <p>
+                    The Beretta 92 is a series of semi-automatic pistols designed and manufactured
+                    by Beretta of Italy. Production began in 1976 and it remains widely used today.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Short recoil, locked breech</p>
+                    <p><strong>Caliber:</strong> 9mm Parabellum</p>
+                    <p><strong>Type:</strong> Semi-automatic, double/single action</p>
+                    <p><strong>Magazine Capacity:</strong> 15 rounds</p>
+                    <p><strong>Country of Origin:</strong> Italy</p>
+                    <p><strong>Year Introduced:</strong> 1976</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Colt 1911 -->
+        <div class="pistol">
+            <img src="https://www.turnbullrestoration.com/wp-content/uploads/2019/08/rs-33115-Colt-1911-after_IMG_5458-scaled.jpg" alt="Colt 1911">
+
+            <div class="pistol-content">
+                <h2>Colt 1911</h2>
+
+                <p>
+                    The Colt 1911 is a semi-automatic pistol chambered in .45 ACP and is one of the
+                    most iconic handgun designs in history.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Short recoil, locked breech</p>
+                    <p><strong>Caliber:</strong> .45 ACP</p>
+                    <p><strong>Type:</strong> Semi-automatic, single action</p>
+                    <p><strong>Magazine Capacity:</strong> 7–8 rounds</p>
+                    <p><strong>Country of Origin:</strong> United States</p>
+                    <p><strong>Year Introduced:</strong> 1911</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SIG Sauer P226 -->
+        <div class="pistol">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU-5cxgG8wNUR0KXQV8aWozhumGY9MmC9B4w&s" alt="SIG Sauer P226">
+
+            <div class="pistol-content">
+                <h2>SIG Sauer P226</h2>
+
+                <p>
+                    The SIG Sauer P226 is a full-sized service pistol known for reliability and use
+                    by military and law enforcement units worldwide.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Short recoil, locked breech</p>
+                    <p><strong>Caliber:</strong> 9mm Parabellum</p>
+                    <p><strong>Type:</strong> Semi-automatic, double/single action</p>
+                    <p><strong>Magazine Capacity:</strong> 15–20 rounds</p>
+                    <p><strong>Country of Origin:</strong> Germany / USA</p>
+                    <p><strong>Year Introduced:</strong> 1984</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Desert Eagle -->
+        <div class="pistol">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3WM0tEL57dLOOO5oz1zvCg6WF_6GH7MPC8A&s" alt="Desert Eagle">
+
+            <div class="pistol-content">
+                <h2>Desert Eagle</h2>
+
+                <p>
+                    The Desert Eagle is a gas-operated semi-automatic pistol famous for chambering
+                    powerful cartridges like the .50 Action Express.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Gas-operated, rotating bolt</p>
+                    <p><strong>Caliber:</strong> .50 AE, .44 Magnum, .357 Magnum</p>
+                    <p><strong>Type:</strong> Semi-automatic</p>
+                    <p><strong>Magazine Capacity:</strong> 7–10 rounds</p>
+                    <p><strong>Country of Origin:</strong> Israel</p>
+                    <p><strong>Year Introduced:</strong> 1983</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

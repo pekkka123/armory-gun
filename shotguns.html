@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shotguns Collection</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#1f1f1f;
+            color:#f1f1f1;
+            line-height:1.6;
+        }
+
+        .main-header{
+            background:#111;
+            padding:30px 20px;
+            text-align:center;
+            border-bottom:3px solid #e5a100;
+        }
+
+        .main-header h1{
+            font-size:3rem;
+            color:#e5a100;
+        }
+
+        .main-header p{
+            margin-top:10px;
+            color:#ccc;
+        }
+
+        .container{
+            max-width:1100px;
+            margin:auto;
+            padding:20px;
+        }
+
+        .shotgun{
+            background:#2a2a2a;
+            margin-bottom:30px;
+            border-radius:12px;
+            overflow:hidden;
+            box-shadow:0 4px 10px rgba(0,0,0,0.4);
+            transition:0.3s ease;
+        }
+
+        .shotgun:hover{
+            transform:translateY(-5px);
+        }
+
+        .shotgun img{
+            width:100%;
+            height:350px;
+            object-fit:cover;
+        }
+
+        .shotgun-content{
+            padding:20px;
+        }
+
+        .shotgun h2{
+            color:#e5a100;
+            margin-bottom:15px;
+        }
+
+        .shotgun p{
+            margin-bottom:10px;
+            text-align:justify;
+        }
+
+        .specs{
+            margin-top:15px;
+        }
+
+        .specs p{
+            margin:6px 0;
+        }
+
+        strong{
+            color:#ffffff;
+        }
+
+        @media(max-width:768px){
+
+            .main-header h1{
+                font-size:2rem;
+            }
+
+            .shotgun img{
+                height:250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <h1>Shotguns Collection</h1>
+        <p>Specifications, History, and Overview</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Remington 870 -->
+        <div class="shotgun">
+            <img src="https://www.remarms.com/assets/imagesRA/870%20Marine%20Magnum/870%20Marine%20Mag%20RAS150558%20Right%20profile.jpg" alt="Remington 870">
+
+            <div class="shotgun-content">
+                <h2>Remington Model 870</h2>
+
+                <p>
+                    The Remington 870 is one of the most popular pump-action shotguns
+                    ever produced and is widely used for hunting, sport shooting,
+                    law enforcement, and military applications.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Pump-action</p>
+                    <p><strong>Caliber:</strong> 12 Gauge / 20 Gauge</p>
+                    <p><strong>Type:</strong> Combat / Field Shotgun</p>
+                    <p><strong>Country of Origin:</strong> USA</p>
+                    <p><strong>Year Introduced:</strong> 1950</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mossberg 500 -->
+        <div class="shotgun">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/PEO_Mossberg_590A1.jpg" alt="Mossberg 500">
+
+            <div class="shotgun-content">
+                <h2>Mossberg 500</h2>
+
+                <p>
+                    The Mossberg 500 is a highly reliable pump-action shotgun series
+                    known for durability and versatility.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Pump-action</p>
+                    <p><strong>Caliber:</strong> 12 Gauge / 20 Gauge</p>
+                    <p><strong>Magazine Capacity:</strong> 5+1 or 7+1</p>
+                    <p><strong>Type:</strong> Combat / Field Shotgun</p>
+                    <p><strong>Country of Origin:</strong> USA</p>
+                    <p><strong>Year Introduced:</strong> 1961</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Benelli M4 -->
+        <div class="shotgun">
+            <img src="https://www.rainierarms.com/media/catalog/product/b/e/benelli-m4-tactical-pg-12-gauge-shotgun-18-5-leo-1.jpg" alt="Benelli M4">
+
+            <div class="shotgun-content">
+                <h2>Benelli M4</h2>
+
+                <p>
+                    The Benelli M4 is a combat-proven semi-automatic shotgun used
+                    by military and law enforcement units around the world.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Semi-automatic (gas-operated)</p>
+                    <p><strong>Caliber:</strong> 12 Gauge</p>
+                    <p><strong>Magazine Capacity:</strong> 5+1</p>
+                    <p><strong>Type:</strong> Military / Combat Shotgun</p>
+                    <p><strong>Country of Origin:</strong> Italy</p>
+                    <p><strong>Year Introduced:</strong> 1999</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SPAS-12 -->
+        <div class="shotgun">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Franchi_SPAS_12_Grip_Safety.jpeg" alt="SPAS-12">
+
+            <div class="shotgun-content">
+                <h2>Franchi SPAS-12</h2>
+
+                <p>
+                    The SPAS-12 is a dual-mode combat shotgun capable of both
+                    semi-automatic and pump-action operation.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Pump-action / Semi-automatic</p>
+                    <p><strong>Caliber:</strong> 12 Gauge</p>
+                    <p><strong>Type:</strong> Tactical / Combat Shotgun</p>
+                    <p><strong>Country of Origin:</strong> Italy</p>
+                    <p><strong>Year Introduced:</strong> 1979</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Saiga-12 -->
+        <div class="shotgun">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Saiga_12_shotgun.jpg" alt="Saiga-12">
+
+            <div class="shotgun-content">
+                <h2>Saiga-12</h2>
+
+                <p>
+                    The Saiga-12 is a magazine-fed semi-automatic shotgun based
+                    on the Kalashnikov rifle platform.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Semi-automatic</p>
+                    <p><strong>Caliber:</strong> 12 Gauge</p>
+                    <p><strong>Magazine Capacity:</strong> 5–12 rounds</p>
+                    <p><strong>Type:</strong> Tactical / Combat Shotgun</p>
+                    <p><strong>Country of Origin:</strong> Russia</p>
+                    <p><strong>Year Introduced:</strong> 1990s</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- KSG -->
+        <div class="shotgun">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Kel-tec_KSG1.jpg" alt="Kel-Tec KSG">
+
+            <div class="shotgun-content">
+                <h2>Kel-Tec KSG</h2>
+
+                <p>
+                    The Kel-Tec KSG is a compact bullpup pump-action shotgun
+                    featuring dual tube magazines for increased ammunition capacity.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Pump-action</p>
+                    <p><strong>Caliber:</strong> 12 Gauge</p>
+                    <p><strong>Magazine Capacity:</strong> Dual tube 7+7</p>
+                    <p><strong>Type:</strong> Tactical Shotgun</p>
+                    <p><strong>Country of Origin:</strong> USA</p>
+                    <p><strong>Year Introduced:</strong> 2011</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TS12 -->
+        <div class="shotgun">
+            <img src="https://iwi.net/wp-content/uploads/2019/11/TS12-TAVOR.jpg" alt="IWI TS12">
+
+            <div class="shotgun-content">
+                <h2>IWI Tavor TS12</h2>
+
+                <p>
+                    The Tavor TS12 is a futuristic semi-automatic bullpup shotgun
+                    with rotating magazine tubes and high capacity.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Semi-automatic</p>
+                    <p><strong>Caliber:</strong> 12 Gauge</p>
+                    <p><strong>Type:</strong> Tactical Bullpup Shotgun</p>
+                    <p><strong>Country of Origin:</strong> Israel</p>
+                    <p><strong>Year Introduced:</strong> 2019</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vepr-12 -->
+        <div class="shotgun">
+            <img src="https://fimegroup.com/wp-content/gallery/vpr-12-81/VPR-12-81-1-Copy.jpg" alt="Vepr-12">
+
+            <div class="shotgun-content">
+                <h2>Vepr-12</h2>
+
+                <p>
+                    The Vepr-12 is a rugged semi-automatic shotgun built on the
+                    heavier RPK machine gun receiver platform.
+                </p>
+
+                <div class="specs">
+                    <p><strong>Action:</strong> Semi-automatic</p>
+                    <p><strong>Caliber:</strong> 12 Gauge</p>
+                    <p><strong>Magazine Capacity:</strong> 5+1 / 8+1</p>
+                    <p><strong>Type:</strong> Combat / Tactical Shotgun</p>
+                    <p><strong>Country of Origin:</strong> Russia</p>
+                    <p><strong>Year Introduced:</strong> 2000</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
