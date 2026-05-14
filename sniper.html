@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snipers</title>
 
- <style>
+    <style>
         *{
             margin:0;
             padding:0;
@@ -37,54 +37,25 @@
         }
 
         .container{
-            max-width:1100px;
+            max-width:1200px;
             margin:auto;
-            padding:20px;
+            padding:30px 20px;
+
+            display:grid;
+            grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+            gap:25px;
         }
 
-        .sniper {
-            background-color: #2a2a2a;
-            margin: 20px 0;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        .sniper-card{
+            background:#2a2a2a;
+            border-radius:15px;
+            overflow:hidden;
+            box-shadow:0 4px 10px rgba(0,0,0,0.5);
+            transition:0.3s ease;
         }
 
-        .sniper h2 {
-            color: #e5a100;
-            text-align: center;
-            margin-bottom: 15px;
-        }
-
-        .sniper img {
-            width: 100%;
-            max-width: 600px;
-            height: 350px;
-            object-fit: cover;
-            display: block;
-            margin: 0 auto 20px auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-        }
-
-        .sniper p {
-            margin: 10px 0;
-            font-size: 1.05em;
-            text-align: justify;
-        }
-
-        strong {
-            color: #f0c040;
-        }
-
-        @media (max-width: 768px) {
-            .sniper img {
-                height: auto;
-            }
-
-            .main-header {
-                font-size: 2em;
-            }
+        .sniper-card:hover{
+            transform:translateY(-8px);
         }
     </style>
 </head>
