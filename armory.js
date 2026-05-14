@@ -1,10 +1,4 @@
-/* =========================
-   THE ARMORY JAVASCRIPT
-========================= */
 
-/* =========================
-   WELCOME MESSAGE
-========================= */
 
 window.addEventListener("load", () => {
 
@@ -12,9 +6,7 @@ window.addEventListener("load", () => {
 
 });
 
-/* =========================
-   BUTTON CLICK EFFECT
-========================= */
+
 
 const buttons = document.querySelectorAll(".button");
 
@@ -32,9 +24,7 @@ buttons.forEach(button => {
 
 });
 
-/* =========================
-   HOVER SOUND EFFECT
-========================= */
+
 
 const hoverSound = new Audio(
     "https://assets.mixkit.co/active_storage/sfx/2571/2571-preview.mp3"
@@ -51,9 +41,6 @@ buttons.forEach(button => {
 
 });
 
-/* =========================
-   SCROLL REVEAL ANIMATION
-========================= */
 
 const revealElements = document.querySelectorAll(
     ".button, .weapon-card, .rifle, .pistol, .shotgun, .smg, .sniper"
@@ -81,9 +68,7 @@ window.addEventListener("scroll", revealOnScroll);
 
 revealOnScroll();
 
-/* =========================
-   DYNAMIC YEAR
-========================= */
+
 
 const footer = document.querySelector("footer");
 
@@ -96,9 +81,7 @@ if (footer) {
 
 }
 
-/* =========================
-   BACK TO TOP BUTTON
-========================= */
+
 
 const topButton = document.createElement("button");
 
@@ -144,9 +127,6 @@ topButton.addEventListener("click", () => {
 
 });
 
-/* =========================
-   RANDOM HEADER COLOR
-========================= */
 
 const title = document.querySelector("header h1");
 
@@ -167,9 +147,7 @@ setInterval(() => {
 
 }, 3000);
 
-/* =========================
-   TYPEWRITER EFFECT
-========================= */
+
 
 const subtitle = document.querySelector("header p");
 
@@ -196,9 +174,7 @@ function typeWriter() {
 
 typeWriter();
 
-/* =========================
-   PARTICLE BACKGROUND
-========================= */
+
 
 for (let i = 0; i < 30; i++) {
 
